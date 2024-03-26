@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.flyaway.runner.CucumberRunnerTests">
+      <class name="com.FltawayAPI.TestRequest_Response">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
+          <include name="TestLogin"/>
+          <include name="before"/>
         </methods>
-      </class> <!-- com.flyaway.runner.CucumberRunnerTests -->
+      </class> <!-- com.FltawayAPI.TestRequest_Response -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

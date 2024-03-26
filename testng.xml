@@ -6,12 +6,9 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="com.flyaway.runner.CucumberRunnerTests" />
-			<class name="com.RestAPI.TestRequest_Response" />
-			
+			<class name="com.FltawayAPI.TestRequest_Response" />
 		</classes>
 	</test> <!--
 	Test -->
-
-
 </suite> <!--
 Suite -->
